@@ -1,0 +1,40 @@
+# Diretórios de build (não versionar bin e obj)
+**/bin/
+**/obj/
+
+# Arquivos do Visual Studio
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vscode/
+.idea/
+.vs/
+
+# Diretório de publicação (caso use dotnet publish)
+**/publish/
+
+# Pacotes locais
+*.nupkg
+*.snupkg
+.nuget/
+
+# Logs
+*.log
+
+# Arquivos do sistema
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Arquivos temporários e cache
+*.tmp
+*.temp
+*.bak
+
+# Configurações de ambiente (não versionar secrets ou env)
+.env
+secrets.json
+
+# Test Results
+TestR
